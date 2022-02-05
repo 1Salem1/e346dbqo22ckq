@@ -1,0 +1,105 @@
+<div class="container-fluid page">
+    <div class="page__content shadow  position-relative">
+      <div class="d-flex flex-row">
+      </div>
+      <div id="first-div"class="p-2 mb-4 text-white bg-primary d-flex justify-content-center">Liste des Projets</div>
+      <div id="first-div"class="p-2 mb-4 text-white  d-flex justify-content-center">
+        <button type="button"  data-toggle="modal" data-target="#form-add-project" class=" btn-lg btn btn-success">Ajouter un project</button>
+      </div>
+      <div id="sec-div" class=" form-row p-2 text-white bg-primary d-flex justify-content-center">
+          <p class="col-md-2">Service</p>
+          <p class="col-md-2">Nom projet</p>
+          <p class="col-md-2">Nom Client</p>
+          <p class="col-md-2">Etat Projet</p>
+          <p class="col-md-2">Cloture</p>
+          <p class="col-md-2">Action</p>
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    </div>
+  
+  </div>
+  <div data-backdrop="false" class="modal fade" id="form-add-project"  role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white ">
+          <h5 class="modal-title" id="exampleModalLabel">Details du Projets</h5>
+          <button class="bg-white text-white" type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group row">
+                    <label  class="col-sm-4 col-form-label">Service :</label>
+                    <div class="col-sm-7">
+                      <input type="text"  class="form-control"  placeholder="Marketning">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label  class="col-sm-4 col-form-label">Nom Projet :</label>
+                    <div class="col-sm-7">
+                      <input type="text" class="form-control"  placeholder="Procédures Marketning">
+                    </div>
+                  </div>  <div class="form-group row">
+                    <label  class="col-sm-4 col-form-label">Nom Client :</label>
+                    <div class="col-sm-7">
+                      <input type="text"  class="form-control"  placeholder="PGH">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label  class="col-sm-4 col-form-label">Description Projet :</label>
+                    <div class="col-sm-7">
+                      <input type="text" class="form-control"  placeholder="Description Projet">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label  class="col-sm-4 col-form-label">Date Debut Estimée :</label>
+                    <div class="col-sm-7">
+                      <input type="date" class="form-control"  >
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label  class="col-sm-4 col-form-label">Date Debut Réelle :</label>
+                    <div class="col-sm-7">
+                      <input type="date" class="form-control"  >
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label  class="col-sm-4 col-form-label">Durée Estimée (Par Jours) :</label>
+                    <div class="col-sm-7">
+                      <input type="number" class="form-control"  >
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label  class="col-sm-4 col-form-label">Durée Réelle (Par Jours) :</label>
+                    <div class="col-sm-7">
+                      <input type="number" class="form-control"  >
+                    </div>
+                  </div>
+                   
+               
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Add Project</button>
+        </div>
+      </div>
+    </div>
+  </div>
